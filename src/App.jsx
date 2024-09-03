@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       {/* container */}
-      <div className="w-full h-screen bg-slate-500 flex justify-center p-3">
+      <div className="w-full h-screen bg-slate-500 flex justify-center p-3 box-border">
         <div
           id="calculator"
           className={`lg:w-fit w-[85%] sm:h-full ${
