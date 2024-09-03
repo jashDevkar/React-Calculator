@@ -30,7 +30,7 @@ function App() {
       <div className="w-full h-screen bg-slate-500 flex justify-center p-3">
         <div
           id="calculator"
-          className={`lg:w-fit w-[85%] h-fit ${
+          className={`lg:w-fit w-[85%] sm:h-full ${
             isDark ? "bg-slate-950" : "bg-white"
           } mt-12 rounded-sm`}
         >
